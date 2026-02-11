@@ -1,5 +1,5 @@
-# Raylib TopDown
-A simple Topdown Shooter game written in C using raylib.
+# Raylib TopDown roguelike shooter
+A simple Topdown roguelike Shooter game written in C using raylib.
 
 ## How to build
 Requires raylib installed.
