@@ -252,8 +252,8 @@ int main(void)
                 for(int i=0;i < MAXENEMY;i++){
                     if(!enemy[i].active){
                         int side = GetRandomValue(0,3);
-                        if(side == 0){enemy[i].pos.x = -100;enemy[i].pos.y = GetRandomValue(0,WIDTH);}
-                        if(side == 1){enemy[i].pos.x = WIDTH + 100;enemy[i].pos.y = GetRandomValue(0,WIDTH);}
+                        if(side == 0){enemy[i].pos.x = -100;enemy[i].pos.y = GetRandomValue(0,HEIGTH);}
+                        if(side == 1){enemy[i].pos.x = WIDTH + 100;enemy[i].pos.y = GetRandomValue(0,HEIGTH);}
                         if(side == 2){enemy[i].pos.x = GetRandomValue(0,WIDTH);enemy[i].pos.y = -100;}
                         if(side == 3){enemy[i].pos.x = GetRandomValue(0,WIDTH);enemy[i].pos.y = HEIGTH + 100;}
 
